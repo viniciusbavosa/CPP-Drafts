@@ -1,4 +1,20 @@
 #include <iostream>
+#include <string>
+
+/*
+  Ponteiros são variaveis que armazenam endereços de memória de outra variavel.
+  Para definir um ponteiro, utiliza o operador * ao lado do tipo de dado
+
+  Ex: tipo* nomeDoPonteiro;
+
+  Para acessar o valor que está no endereço apontado, utiliza-se o operador de desreferencia * antes do nome do ponteiro
+
+  Ex: int x = 42;
+      int* ponteiro = &x;
+      std::cout << *ponteiro
+
+  O operador & (endereço de) extrai o endereço de memória
+*/
 
 int main()
 {
