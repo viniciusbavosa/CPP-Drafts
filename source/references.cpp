@@ -72,6 +72,6 @@ int main()
 
   std::cout << "Valor da variavel 'my_name: " << my_name << std::endl;
 
-  std::cout << "O valor de 'my_name' muda quando 'my_ref' e alterado porque 'my_ref' e uma referencia direta a 'my_name', ou seja, ambos apontam para o mesmo espaço de memoria que armazena o valor\n";
+  std::cout << "O valor de 'my_name' muda quando 'my_ref' e alterado porque 'my_ref' e uma referencia direta a 'my_name', ou seja, ambos apontam para o mesmo espaco de memoria que armazena o valor\n";
   return 0;
 }
